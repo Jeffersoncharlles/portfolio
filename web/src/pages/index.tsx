@@ -10,7 +10,6 @@ export default function Home() {
       <Head>
         <title>Jefferson Charlles</title>
         <meta name="description" content="Portfolio Jefferson Charlles" />
-        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <Header />
 
