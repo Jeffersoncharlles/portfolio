@@ -1,0 +1,19 @@
+
+.header{
+  height: 4.5rem;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+
+  img{
+    width: 42px;
+    height: 42px;
+  }
+
+  nav{
+   ul{
+    display: flex;
+    gap: 1rem;
+   }
+  }
+}

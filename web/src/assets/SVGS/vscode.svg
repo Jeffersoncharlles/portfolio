@@ -1,0 +1,244 @@
+<svg width="530" height="387" viewBox="0 0 530 387" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="vscode">
+<g id="vscode_2" filter="url(#filter0_dd_301_220)">
+<g id="appbarnavbar">
+<rect id="bg" width="530" height="37" fill="#21252B"/>
+<g id="app_bar_buttons">
+<circle id="close" cx="18.5965" cy="18.5965" r="5.57895" fill="#FF4A4A"/>
+<circle id="minimize" cx="37.193" cy="18.5965" r="5.57895" fill="#FFB83D"/>
+<circle id="expand" cx="55.7895" cy="18.5965" r="5.57895" fill="#00C543"/>
+</g>
+<rect id="border" y="36.0702" width="530" height="0.929825" fill="black" fill-opacity="0.01"/>
+</g>
+<g id="editor">
+<rect width="530" height="349.614" transform="translate(0 37.193)" fill="#282C34"/>
+<g id="contentRow" clip-path="url(#clip0_301_220)">
+<g id="first-line">
+<g id="accent 1" clip-path="url(#clip1_301_220)">
+<text id=".about" fill="#98C379" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="70.6667" y="75.0217">.about</tspan></text>
+</g>
+<g id="brace-left" clip-path="url(#clip2_301_220)">
+<text id="{" fill="white" fill-opacity="0.75" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="116.667" y="75.0217">{</tspan></text>
+</g>
+</g>
+<g id="comment-indent">
+<g id="indent">
+<rect id="indent_2" width="0.929825" height="22" transform="matrix(-1 0 0 1 71.5965 81.5088)" fill="white" fill-opacity="0.15"/>
+</g>
+<g id="comment" clip-path="url(#clip3_301_220)">
+<text id="/* basic info &#240;&#159;&#161;&#163; */" fill="#BABABA" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="103.211" y="97.0217">/* </tspan><tspan x="126.093" y="97.0217">basic </tspan><tspan x="171.858" y="97.0217">info </tspan><tspan x="209.995" y="97.0217">&#x1f863; </tspan><tspan x="226.966" y="97.0217">*/</tspan></text>
+</g>
+</g>
+<g id="property">
+<g id="indent_3">
+<rect id="indent_4" width="0.929825" height="22" transform="matrix(-1 0 0 1 71.5965 103.509)" fill="white" fill-opacity="0.15"/>
+</g>
+<g id="accent 2" clip-path="url(#clip4_301_220)">
+<text id="name" fill="#E06C75" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="103.211" y="119.022">name</tspan></text>
+</g>
+<g id="colon">
+<text id=":" fill="white" fill-opacity="0.3" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="134.211" y="119.022">:</tspan></text>
+</g>
+<g id="accent 3" clip-path="url(#clip5_301_220)">
+<text id="tovi" fill="#E5C07B" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="155.228" y="119.022">jefferson</tspan></text>
+</g>
+<g id="semicolon" clip-path="url(#clip6_301_220)">
+<text id=";" fill="white" fill-opacity="0.75" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="224.228" y="119.022">,</tspan></text>
+</g>
+</g>
+<g id="property_2">
+<g id="indent_5">
+<rect id="indent_6" width="0.929825" height="22" transform="matrix(-1 0 0 1 71.5965 125.509)" fill="white" fill-opacity="0.15"/>
+</g>
+<g id="accent 2_2" clip-path="url(#clip7_301_220)">
+<text id="superpower" fill="#E06C75" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="103.211" y="141.022">skills</tspan></text>
+</g>
+<g id="colon_2">
+<text id=":_2" fill="white" fill-opacity="0.3" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="149.211" y="141.022">:</tspan></text>
+</g>
+<g id="accent 3_2" clip-path="url(#clip8_301_220)">
+<text id="learning-new-things, design-system" fill="#E5C07B" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="170.228" y="141.022">[&#x201c;front-end&#x201d;,&#x201c;back-end&#x201d;,&#x201c;mobile&#x201d;]</tspan></text>
+</g>
+<g id="semicolon_2" clip-path="url(#clip9_301_220)">
+<text id=";_2" fill="white" fill-opacity="0.75" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="422.228" y="141.022">,</tspan></text>
+</g>
+</g>
+<g id="property_3">
+<g id="indent_7">
+<rect id="indent_8" width="0.929825" height="22" transform="matrix(-1 0 0 1 71.5965 147.509)" fill="white" fill-opacity="0.15"/>
+</g>
+<g id="accent 2_3" clip-path="url(#clip10_301_220)">
+<text id="weakness" fill="#E06C75" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="103.211" y="163.022">age</tspan></text>
+</g>
+<g id="colon_3">
+<text id=":_3" fill="white" fill-opacity="0.3" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="126.211" y="163.022">:</tspan></text>
+</g>
+<g id="accent 3_3" clip-path="url(#clip11_301_220)">
+<text id="visual-design" fill="url(#paint0_linear_301_220)" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="147.228" y="163.022">33</tspan></text>
+</g>
+<g id="semicolon_3" clip-path="url(#clip12_301_220)">
+<text id=";_3" fill="white" fill-opacity="0.75" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="163.228" y="163.022">,</tspan></text>
+</g>
+</g>
+<g id="property_4">
+<g id="indent_9">
+<rect id="indent_10" width="0.929825" height="22" transform="matrix(-1 0 0 1 71.5965 169.509)" fill="white" fill-opacity="0.15"/>
+</g>
+<g id="accent 2_4" clip-path="url(#clip13_301_220)">
+<text id="guilty-pleasures" fill="#E06C75" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="103.211" y="185.022">married</tspan></text>
+</g>
+<g id="colon_4">
+<text id=":_4" fill="white" fill-opacity="0.3" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="157.211" y="185.022">:</tspan></text>
+</g>
+<g id="accent 3_4" clip-path="url(#clip14_301_220)">
+<text id="minecraft, age-of-empires" fill="#0EA5E9" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="178.228" y="185.022">true</tspan></text>
+</g>
+<g id="semicolon_4" clip-path="url(#clip15_301_220)">
+<text id=";_4" fill="white" fill-opacity="0.75" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="209.228" y="185.022">;</tspan></text>
+</g>
+</g>
+<g id="property_5">
+<g id="indent_11">
+<rect id="indent_12" width="0.929825" height="22" transform="matrix(-1 0 0 1 71.5965 191.509)" fill="white" fill-opacity="0.15"/>
+</g>
+<g id="accent 2_5" clip-path="url(#clip16_301_220)">
+<text id="personality" fill="#E06C75" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="103.211" y="207.022">personality</tspan></text>
+</g>
+<g id="colon_5">
+<text id=":_5" fill="white" fill-opacity="0.3" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="187.211" y="207.022">:</tspan></text>
+</g>
+<g id="accent 3_5" clip-path="url(#clip17_301_220)">
+<text id="introvert" fill="#E5C07B" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="208.228" y="207.022">introvert</tspan></text>
+</g>
+<g id="semicolon_5" clip-path="url(#clip18_301_220)">
+<text id=";_5" fill="white" fill-opacity="0.75" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="277.228" y="207.022">;</tspan></text>
+</g>
+</g>
+<g id="last-line">
+<g id="tovi/css-brace-right" clip-path="url(#clip19_301_220)">
+<text id="}" fill="white" fill-opacity="0.75" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="70.6667" y="229.022">}</tspan></text>
+</g>
+</g>
+</g>
+<g id="line_number" clip-path="url(#clip20_301_220)">
+<g id="line-number">
+<text id="1" fill="#717C94" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="37.0041" y="75.0217">1</tspan></text>
+</g>
+<g id="line-number_2">
+<text id="2" fill="#717C94" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="37.0041" y="97.0217">2</tspan></text>
+</g>
+<g id="line-number_3">
+<text id="3" fill="#717C94" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="37.0041" y="119.022">3</tspan></text>
+</g>
+<g id="line-number_4" clip-path="url(#clip21_301_220)">
+<text id="4" fill="#717C94" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="37.0041" y="141.022">4</tspan></text>
+</g>
+<g id="line-number_5">
+<text id="5" fill="#717C94" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="37.0041" y="163.022">5</tspan></text>
+</g>
+<g id="line-number_6">
+<text id="6" fill="#717C94" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="37.0041" y="185.022">6</tspan></text>
+</g>
+<g id="line-number_7" clip-path="url(#clip22_301_220)">
+<text id="7" fill="#717C94" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="37.0041" y="207.022">7</tspan></text>
+</g>
+<g id="line-number_8">
+<text id="8" fill="#717C94" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="37.0041" y="229.022">8</tspan></text>
+</g>
+<g id="line-number_9">
+<text id="9" fill="#717C94" xml:space="preserve" style="white-space: pre" font-family="Cascadia Code" font-size="13.0175" letter-spacing="0em"><tspan x="37.0041" y="251.022">9</tspan></text>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_dd_301_220" x="-46.9001" y="-27.8135" width="623.8" height="480.607" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="10.4886"/>
+<feGaussianBlur stdDeviation="15.9474"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.470588 0 0 0 0 0.470588 0 0 0 0 0.486275 0 0 0 0.01 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_301_220"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="19.0866"/>
+<feGaussianBlur stdDeviation="23.4501"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.470588 0 0 0 0 0.470588 0 0 0 0 0.486275 0 0 0 0.0234306 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_301_220" result="effect2_dropShadow_301_220"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_301_220" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_301_220" x1="160.748" y1="150.479" x2="146.416" y2="162.494" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00D8FF"/>
+<stop offset="1" stop-color="#43DCF8"/>
+</linearGradient>
+<clipPath id="clip0_301_220">
+<rect width="359.561" height="176" fill="white" transform="translate(70.6667 59.5088)"/>
+</clipPath>
+<clipPath id="clip1_301_220">
+<rect width="46" height="22" fill="white" transform="translate(70.6667 59.5088)"/>
+</clipPath>
+<clipPath id="clip2_301_220">
+<rect width="8" height="22" fill="white" transform="translate(116.667 59.5088)"/>
+</clipPath>
+<clipPath id="clip3_301_220">
+<rect width="140" height="22" fill="white" transform="translate(103.211 81.5088)"/>
+</clipPath>
+<clipPath id="clip4_301_220">
+<rect width="31" height="22" fill="white" transform="translate(103.211 103.509)"/>
+</clipPath>
+<clipPath id="clip5_301_220">
+<rect width="69" height="22" fill="white" transform="translate(155.228 103.509)"/>
+</clipPath>
+<clipPath id="clip6_301_220">
+<rect width="8" height="22" fill="white" transform="translate(224.228 103.509)"/>
+</clipPath>
+<clipPath id="clip7_301_220">
+<rect width="46" height="22" fill="white" transform="translate(103.211 125.509)"/>
+</clipPath>
+<clipPath id="clip8_301_220">
+<rect width="252" height="22" fill="white" transform="translate(170.228 125.509)"/>
+</clipPath>
+<clipPath id="clip9_301_220">
+<rect width="8" height="22" fill="white" transform="translate(422.228 125.509)"/>
+</clipPath>
+<clipPath id="clip10_301_220">
+<rect width="23" height="22" fill="white" transform="translate(103.211 147.509)"/>
+</clipPath>
+<clipPath id="clip11_301_220">
+<rect width="16" height="22" fill="white" transform="translate(147.228 147.509)"/>
+</clipPath>
+<clipPath id="clip12_301_220">
+<rect width="8" height="22" fill="white" transform="translate(163.228 147.509)"/>
+</clipPath>
+<clipPath id="clip13_301_220">
+<rect width="54" height="22" fill="white" transform="translate(103.211 169.509)"/>
+</clipPath>
+<clipPath id="clip14_301_220">
+<rect width="31" height="22" fill="white" transform="translate(178.228 169.509)"/>
+</clipPath>
+<clipPath id="clip15_301_220">
+<rect width="8" height="22" fill="white" transform="translate(209.228 169.509)"/>
+</clipPath>
+<clipPath id="clip16_301_220">
+<rect width="84" height="22" fill="white" transform="translate(103.211 191.509)"/>
+</clipPath>
+<clipPath id="clip17_301_220">
+<rect width="69" height="22" fill="white" transform="translate(208.228 191.509)"/>
+</clipPath>
+<clipPath id="clip18_301_220">
+<rect width="8" height="22" fill="white" transform="translate(277.228 191.509)"/>
+</clipPath>
+<clipPath id="clip19_301_220">
+<rect width="8" height="22" fill="white" transform="translate(70.6667 213.509)"/>
+</clipPath>
+<clipPath id="clip20_301_220">
+<rect width="22.3158" height="198" fill="white" transform="translate(22.3158 59.5088)"/>
+</clipPath>
+<clipPath id="clip21_301_220">
+<rect width="22.3158" height="22" fill="white" transform="translate(22.3158 125.509)"/>
+</clipPath>
+<clipPath id="clip22_301_220">
+<rect width="22.3158" height="22" fill="white" transform="translate(22.3158 191.509)"/>
+</clipPath>
+</defs>
+</svg>

@@ -6,16 +6,16 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>Jefferson Charlles</title>
         <meta name="description" content="Portfolio Jefferson Charlles" />
       </Head>
       <Header />
+      <main id='#home'>
 
-
-
-    </div>
+      </main>
+    </>
   )
 }
 
