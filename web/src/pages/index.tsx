@@ -1,9 +1,9 @@
 import { GetStaticProps } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import { Header } from '../components/Header'
 import styles from '../styles/pages/Hero.module.scss'
 import UnionDegrade from '../assets/SVGS/UnionDegrade'
+import SlacksIcons from '../assets/SVGS/SlacksIcons'
 
 export default function Home() {
   return (
@@ -16,6 +16,7 @@ export default function Home() {
       <Header />
       <main className={styles.container} >
         <section className={styles.containerHero}>
+
           <div className={styles.container_item1}>
             <h1>Software Analyst</h1>
             <h4>Jefferson Charlles</h4>
@@ -31,6 +32,9 @@ export default function Home() {
 
           <div className={styles.container_item2}>
             <UnionDegrade />
+            <div>
+              <SlacksIcons />
+            </div>
           </div>
         </section>
       </main>
