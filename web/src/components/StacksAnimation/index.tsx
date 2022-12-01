@@ -1,6 +1,6 @@
 import styles from './styles.module.scss'
 
-export const blog = () => {
+export const StacksAnimation = () => {
 
     return(
         <div className={styles.container}>

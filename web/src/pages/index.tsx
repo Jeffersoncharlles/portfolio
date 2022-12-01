@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Header } from '../components/Header'
 import styles from './index.module.scss'
+import UnionDegrade from '../assets/SVGS/UnionDegrade'
 
 export default function Home() {
   return (
@@ -14,7 +15,24 @@ export default function Home() {
       </Head>
       <Header />
       <main className={styles.container} >
+        <section className={styles.containerHero}>
+          <div className={styles.container_item1}>
+            <h1>Software Analyst</h1>
+            <h4>Jefferson Charlles</h4>
+            <p>
+              code beautifully things and l love what I do
+              I'm always learning. I love technology, energy
+              drinks and applying knowledge to solve problem
+            </p>
+            <button>
+              Chat me
+            </button>
+          </div>
 
+          <div className={styles.container_item2}>
+            <UnionDegrade />
+          </div>
+        </section>
       </main>
     </>
   )

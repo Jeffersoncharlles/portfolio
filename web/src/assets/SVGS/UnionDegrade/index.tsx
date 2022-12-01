@@ -3,14 +3,12 @@ import { SVGProps, Ref, forwardRef, memo } from "react"
 
 const SvgComponent = (
   props: SVGProps<SVGSVGElement>,
-  ref: Ref<SVGSVGElement>
 ) => (
   <svg
     width={632}
     height={632}
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    ref={ref}
     {...props}
   >
     <g filter="url(#a)">
@@ -53,6 +51,5 @@ const SvgComponent = (
   </svg>
 )
 
-const ForwardRef = forwardRef(SvgComponent)
-const Memo = memo(ForwardRef)
-export default Memo
+
+export default SvgComponent
