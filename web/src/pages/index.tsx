@@ -2,7 +2,7 @@ import { GetStaticProps } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import { Header } from '../components/Header'
-import styles from '../styles/Home.module.css'
+import styles from './index.module.scss'
 
 export default function Home() {
   return (
@@ -10,9 +10,10 @@ export default function Home() {
       <Head>
         <title>Jefferson Charlles</title>
         <meta name="description" content="Portfolio Jefferson Charlles" />
+
       </Head>
       <Header />
-      <main id='#home'>
+      <main className={styles.container} >
 
       </main>
     </>

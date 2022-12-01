@@ -1,9 +1,11 @@
 
+.container{
+  @apply text-gray-100 w-full pt-4;
+}
+
 .header{
-  height: 4.5rem;
-  display:flex;
-  justify-content: space-between;
-  align-items: center;
+  @apply max-w-[1440px] mt-0 mx-auto flex h-12 justify-between items-center;
+
 
   img{
     width: 42px;
@@ -14,6 +16,20 @@
    ul{
     display: flex;
     gap: 1rem;
+
+
+    li{
+      // border: 1px solid salmon;
+      @apply py-2 px-4 uppercase  transition-colors ;
+
+      &:hover{
+        @apply text-gray-200 ;
+      }
+    }
    }
+  }
+
+  .socials{
+    @apply flex gap-4;
   }
 }

@@ -28,7 +28,12 @@ yarn dev
 ```
 
 ## PREVIEW
-<a href="#">NuBank</a>
+
+<button href="#" style="cursor:pointer; border:0; background:#00D8FF; padding:10px 2rem;border-radios:8px; color:#1A464E;">
+Jefferson
+</button>
+
+
 ## 🚀 Technologies:
 
 This Front-End project was developed using the following technologies:
@@ -36,7 +41,11 @@ This Front-End project was developed using the following technologies:
 -   [Next Js][nextjs]
 -   [Typescript][typescript]
 -   [Sass][sass]
+-   [Phosphor Icons][phosphoricons]
 -   [Swiper Js][swiperjs]
+-   [Vanilla Tilt][vanillatilt]
+-   [GreenSock][gsap]
+-   [AOS Animation][osanimation]
 
 
 
@@ -50,7 +59,11 @@ Feel free to bring new features or fix problems, it will be a pleasure! 💜
 </div>
 
 [typescript]: https://www.typescriptlang.org/
+[tailwindcss]: https://tailwindcss.com/
+[vanillatilt]: https://micku7zu.github.io/vanilla-tilt.js/
+[gsap]: https://greensock.com/
 [nextjs]: https://nextjs.org/
+[osanimation]: https://michalsnik.github.io/aos/
 [swiperjs]: https://swiperjs.com/react
 [next-auth]: https://next-auth.js.org/
 [vitejs]: https://vitejs.dev/
@@ -67,6 +80,5 @@ Feel free to bring new features or fix problems, it will be a pleasure! 💜
 [yarn]: https://yarnpkg.com/
 [license]: ./LICENSE
 [linkedin]: https://www.linkedin.com/in/jeffersoncharlles/
-
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://jefferdeveloper.com/)

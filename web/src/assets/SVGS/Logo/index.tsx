@@ -1,21 +1,20 @@
-import * as React from "react"
-import { SVGProps, Ref, forwardRef, memo } from "react"
+import styles from './styles.module.scss'
+
 
 const SvgComponent = (
-  props: SVGProps<SVGSVGElement>,
-  ref: Ref<SVGSVGElement>
+  props: React.SVGProps<SVGSVGElement>,
 ) => (
   <svg
     width={181}
     height={193}
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    ref={ref}
     {...props}
   >
     <path
       d="M98.547 186.17c54.083-3.25 63.834-34.633 0-186.17L181 192.081s-132.988 2.068-164.315 0c-31.328-2.069-10.936-5.911 0-5.911s27.778 3.251 81.862 0Z"
       fill="url(#a)"
+      className={styles.logoAnimation}
     />
     <defs>
       <linearGradient
@@ -33,6 +32,5 @@ const SvgComponent = (
   </svg>
 )
 
-const ForwardRef = forwardRef(SvgComponent)
-const Memo = memo(ForwardRef)
-export default Memo
+
+export default SvgComponent
