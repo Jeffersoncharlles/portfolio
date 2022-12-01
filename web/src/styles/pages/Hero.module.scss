@@ -1,0 +1,26 @@
+.container {
+  @apply max-w-[1440px] mt-0 mx-auto flex;
+}
+
+.containerHero {
+  @apply flex justify-between mt-44 gap-24;
+}
+
+.container_item1 {
+  >h1 {
+    @apply font-sans font-medium text-7xl text-gray-50;
+  }
+
+  >h4 {
+    @apply font-sans2 font-semibold text-5xl text-gray-50 mt-4;
+  }
+
+  >p {
+    @apply mt-8 text-base text-gray-100 w-96;
+  }
+}
+
+
+.container_item2 {
+  @apply relative;
+}

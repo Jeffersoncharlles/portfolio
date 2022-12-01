@@ -1,0 +1,26 @@
+
+
+.paths{
+  // fill: transparent;
+  animation: union 12s ease infinite alternate;
+
+
+  @keyframes union {
+  0% {
+      stroke-width: 0;
+      stroke-dasharray: 1 100;
+
+    }
+
+    25% {
+      stroke-width: 1;
+      stroke-dasharray: 100 1;
+      // fill: transparent;
+    }
+
+    60%,
+    100% {
+      stroke-width: 0.3;
+    }
+  }
+}

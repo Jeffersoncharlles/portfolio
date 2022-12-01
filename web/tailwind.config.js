@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Mukta', 'sans-serif']
+        sans: ['JetBrains Mono', 'sans-serif'],
+        sans2: ['Source Sans Pro', 'sans-serif']
       },
       colors: {
         gradient: {

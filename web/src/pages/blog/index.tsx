@@ -1,10 +1,17 @@
+import Head from 'next/head';
+import { Header } from '../../components/Header';
 import styles from './styles.module.scss'
 
-export const blog = () => {
+const blog = () => {
 
-    return(
-        <div className={styles.container}>
-
-        </div>
+    return (
+        <>
+        <Head>
+            <title>Jefferson Charlles</title>
+            <meta name="description" content="Portfolio Jefferson Charlles" />
+        </Head>
+            <Header />
+        </>
     );
 }
+export default blog

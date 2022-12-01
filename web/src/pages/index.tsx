@@ -2,7 +2,7 @@ import { GetStaticProps } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import { Header } from '../components/Header'
-import styles from './index.module.scss'
+import styles from '../styles/pages/Hero.module.scss'
 import UnionDegrade from '../assets/SVGS/UnionDegrade'
 
 export default function Home() {
