@@ -25,7 +25,7 @@ export const Header = () => {
 
   return (
     <header className={styles.container}>
-      <div className={styles.header}>
+      <div className={styles.header} data-aos="fade-up">
         <Image
           src={Logo}
           alt=""

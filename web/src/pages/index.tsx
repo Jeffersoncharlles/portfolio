@@ -1,3 +1,4 @@
+
 import { GetStaticProps } from 'next'
 import Head from 'next/head'
 import { Header } from '../components/Header'
@@ -5,7 +6,11 @@ import styles from '../styles/pages/Hero.module.scss'
 import UnionDegrade from '../assets/SVGS/UnionDegrade'
 import SlacksIcons from '../assets/SVGS/SlacksIcons'
 
+
+
 export default function Home() {
+
+
   return (
     <>
       <Head>
@@ -15,7 +20,7 @@ export default function Home() {
       </Head>
       <Header />
       <main className={styles.container} >
-        <section className={styles.containerHero}>
+        <section className={styles.containerHero} data-aos="fade-up" data-aos-delay="200">
 
           <div className={styles.container_item1}>
             <h1>Software Analyst</h1>
@@ -30,7 +35,7 @@ export default function Home() {
             </button>
           </div>
 
-          <div className={styles.container_item2}>
+          <div className={styles.container_item2} data-aos="fade-up" data-aos-delay="0">
             <UnionDegrade />
             <div>
               <SlacksIcons />
