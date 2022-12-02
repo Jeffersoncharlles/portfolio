@@ -1,9 +1,14 @@
 .container {
-  @apply max-w-[1440px] mt-0 mx-auto flex;
+  @apply max-w-[1440px] mt-0 mx-auto flex overflow-hidden;
+
 }
 
 .containerHero {
-  @apply flex justify-between mt-44 gap-24;
+  @apply flex flex-col my-8 mx-auto gap-24;
+
+  @screen lg{
+      @apply flex flex-row justify-between mt-44 gap-24;
+  }
 }
 
 .container_item1 {
@@ -26,9 +31,23 @@
 
 
 .container_item2 {
-  @apply relative;
+  @apply relative ;
 
-  >div{
-    @apply absolute top-0 z-10;
+    .stacks {
+      perspective: 500px;
+      @apply  absolute top-0 z-10;
+    }
+
+
+  @screen lg {
+    @apply relative ;
+
+      .stacks {
+        perspective: 500px;
+        @apply absolute top-0 z-10;
+      }
+
   }
+
+
 }

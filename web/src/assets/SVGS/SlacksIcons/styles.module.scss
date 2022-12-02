@@ -2,4 +2,73 @@
 
 .reactNative{
 
+  animation: stack 7s ease infinite alternate ;
+}
+
+.nodeJs{
+
+    animation: node 5s ease  infinite alternate;
+}
+
+.vscode{
+
+  animation: stack 7s ease  infinite alternate;
+}
+
+.reactjs{
+
+  animation: reactjs 7s ease infinite alternate;
+}
+
+.typescript{
+
+  animation: types 7s ease infinite alternate;
+}
+
+@keyframes stack {
+  0% {
+      transform: translateY(-30px) rotate(0deg) ;
+    }
+
+    100% {
+      transform: translateY(0px) rotate(0deg);
+    }
+}
+
+
+@keyframes types {
+  0% {
+    transform: translateY(10px)  scale(0.9);
+  }
+  50%{
+    transform: translateY(30px) translateX(-10px);
+  }
+
+  100% {
+    transform: translateY(30px) translateX(-30px) scale(1);
+  }
+}
+
+@keyframes node {
+  0% {
+    transform: translateY(-30px)  scale(1);
+  }
+
+  100% {
+    transform: translateY(10px) scale(0.9);
+  }
+}
+
+@keyframes reactjs {
+  0% {
+
+  }
+
+  50%{
+    transform: translateY(-30px) scale(1);
+  }
+
+  100% {
+    transform: translateY(20px) scale(0.9);
+  }
 }

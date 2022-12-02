@@ -1,8 +1,6 @@
 
 import { Html, Head, Main, NextScript } from "next/document";
 
-
-
 export default function Document() {
 
   return (
@@ -14,7 +12,6 @@ export default function Document() {
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <meta name="keywords" content="portfolio, developer, javascript" />
         <meta name="robots" content="index, follow" />
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="English" />
       </Head>
       <body className="">

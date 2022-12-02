@@ -33,8 +33,8 @@ export const Header = () => {
         <nav>
           <ul>
             <li>
-              <Link href="">
-                Services
+              <Link href="#home">
+                Home
               </Link>
 
             </li>
