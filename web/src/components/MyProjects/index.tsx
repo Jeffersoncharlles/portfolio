@@ -1,9 +1,11 @@
 import styles from './styles.module.scss'
 
-export const MyProjects = () => {
+interface Props extends React.HTMLAttributes<HTMLDivElement> { }
+
+export const MyProjects = ({ ...rest}:Props) => {
 
     return(
-        <section className={styles.container}>
+        <section className={styles.container} {...rest}>
 
         </section>
     );

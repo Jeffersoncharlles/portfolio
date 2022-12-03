@@ -12,7 +12,7 @@ export const Hello = ({ ...rest}:Props) => {
           <strong>Jefferson charlles</strong>
         </h2>
         <div className={styles.container_about_stacks}>
-          <div className='gap-4'>
+          <div className={styles.box} >
             <Box />
             <Box />
             <Box />

@@ -5,19 +5,21 @@ import { EnvelopeSimple, InstagramLogo, GithubLogo } from 'phosphor-react'
 import { gsap } from "gsap";
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 interface Props{
   menu?: {
     title: string
     linkUrl:string
-  },
+  }[],
   socials?: {
     icon: string
     linkUrl:string
   }
 }
 
-export const Header = () => {
+export const Header = ({ menu }:Props) => {
+  const router = useRouter()
 
 
   return (
@@ -29,27 +31,15 @@ export const Header = () => {
         />
         <nav>
           <ul>
-            <li>
-              <Link href="#home">
-                Home
-              </Link>
 
-            </li>
-            <li>
-              <Link href="#about">
-                About
-              </Link>
-            </li>
-            <li>
-              <Link href="">
-                Contact
-              </Link>
-            </li>
-            <li>
-              <Link href="">
-                Blog
-              </Link>
-            </li>
+            {menu?.map((item) => (
+              <li key={item.title}>
+                <Link href={item.linkUrl}>
+                  {item.title}
+                </Link>
+              </li>
+            ))}
+
           </ul>
         </nav>
         <div className={styles.socials}>

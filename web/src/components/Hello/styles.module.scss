@@ -14,4 +14,8 @@
 
 .container_about_stacks{
   @apply w-[1246px] h-full flex gap-20 justify-between items-center ;
+
+  .box{
+    @apply flex flex-col justify-center items-start gap-4;
+  }
 }

@@ -8,6 +8,6 @@ export const Box = () => {
         <h4>Front-End</h4>
         <p>I’m developer front-end with ReactJs</p>
         <Link href="">views projects</Link>
-        </div>
+      </div>
     );
 }

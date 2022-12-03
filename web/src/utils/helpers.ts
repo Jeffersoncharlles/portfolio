@@ -8,3 +8,12 @@ export const heroText = [
 export const socialsMenu = [
   { title: 'instagram', linkUrl:"https://www.instagram.com/jeffersoncharllesoficial/" }
 ]
+
+
+export const menuHelpers = [
+  { title: 'Home', linkUrl: '/'},
+  { title: 'About', linkUrl: '#about'},
+  { title: 'Academic', linkUrl: '#formation'},
+  { title: 'Contact', linkUrl: '#contact'},
+  { title: 'Blog', linkUrl: '/Blog'},
+]
