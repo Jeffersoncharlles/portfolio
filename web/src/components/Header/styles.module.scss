@@ -33,3 +33,8 @@
     @apply flex gap-4;
   }
 }
+
+
+.active_header{
+  @apply bg-slate-800 ;
+}

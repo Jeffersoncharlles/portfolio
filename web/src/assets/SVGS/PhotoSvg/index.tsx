@@ -1,17 +1,18 @@
 import * as React from "react"
-import { SVGProps, Ref, forwardRef, memo } from "react"
+import styles from './styles.module.scss'
 
-const SvgComponent = (
-  props: SVGProps<SVGSVGElement>,
-  ref: Ref<SVGSVGElement>
-) => (
+interface Props extends React.SVGProps<SVGSVGElement> {
+  styleClass?: string;
+  urlImage?: string;
+}
+
+const SvgComponent = ({ urlImage, styleClass, ...rest }:Props) => (
   <svg
     width={587}
     height={760}
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    ref={ref}
-    {...props}
+    {...rest}
   >
     <g filter="url(#a)">
       <rect
@@ -22,6 +23,7 @@ const SvgComponent = (
         rx={2}
         fill="#D5D6D8"
       />
+      <image className={styles.images} href={urlImage} width="426" height='570' x={80.981} y={29.248} />
     </g>
     <rect
       x={56.97}
@@ -32,7 +34,10 @@ const SvgComponent = (
       transform="rotate(-1.766 56.97 15.16)"
       stroke="#868587"
       strokeWidth={2}
+      className={styles.borderImg}
     />
+
+
     <defs>
       <filter
         id="a"
@@ -99,6 +104,4 @@ const SvgComponent = (
   </svg>
 )
 
-const ForwardRef = forwardRef(SvgComponent)
-const Memo = memo(ForwardRef)
-export default Memo
+export default SvgComponent

@@ -7,6 +7,9 @@ import UnionDegrade from '../assets/SVGS/UnionDegrade'
 import SlacksIcons from '../assets/SVGS/SlacksIcons'
 import BgHero from './../assets/SVGS/BgHero'
 import { Hello } from '../components/Hello'
+import { AcademicEducation } from '../components/AcademicEducation'
+import { MyProjects } from '../components/MyProjects'
+import { Footer } from '../components/Footer'
 
 
 
@@ -47,6 +50,9 @@ export default function Home() {
           </div>
         </section>
         <Hello id='#about' />
+        <AcademicEducation />
+        <MyProjects />
+        <Footer/>
       </main>
 
     </>

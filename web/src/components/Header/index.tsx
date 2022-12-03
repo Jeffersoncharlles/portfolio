@@ -3,7 +3,7 @@ import styles from './styles.module.scss'
 import Logo from '../../assets/logo.svg'
 import { EnvelopeSimple, InstagramLogo, GithubLogo } from 'phosphor-react'
 import { gsap } from "gsap";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 
 interface Props{
@@ -19,12 +19,9 @@ interface Props{
 
 export const Header = () => {
 
-  useEffect(() => {
-
-  }, [])
 
   return (
-    <header className={styles.container}>
+    <header className={`${styles.container} `} >
       <div className={styles.header} data-aos="fade-up">
         <Image
           src={Logo}

@@ -28,6 +28,15 @@ body{
   @screen lg{
     @apply w-full h-full bg-gray-900 text-gray-100 relative overflow-x-hidden;
   }
+
+     &::-webkit-scrollbar {
+       width: 6px;
+       height: 6px;
+     }
+
+     &::-webkit-scrollbar-thumb {
+       background: #767576;
+     }
 }
 
 
