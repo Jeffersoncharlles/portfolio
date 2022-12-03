@@ -39,8 +39,8 @@ export const Header = () => {
 
             </li>
             <li>
-              <Link href="">
-                Works
+              <Link href="#about">
+                About
               </Link>
             </li>
             <li>

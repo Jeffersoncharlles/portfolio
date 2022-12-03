@@ -1,0 +1,17 @@
+
+
+.container{
+  @apply text-gray-50 flex flex-col my-48 mx-auto gap-24 w-full items-center ;
+
+  >h2{
+    @apply font-sans2 text-5xl font-bold  block ;
+
+    strong{
+     color: #00D8FF;
+    }
+  }
+}
+
+.container_about_stacks{
+  @apply w-[1246px] h-full flex gap-20 justify-between items-center ;
+}

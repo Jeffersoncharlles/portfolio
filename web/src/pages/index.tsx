@@ -6,6 +6,7 @@ import styles from '../styles/pages/Hero.module.scss'
 import UnionDegrade from '../assets/SVGS/UnionDegrade'
 import SlacksIcons from '../assets/SVGS/SlacksIcons'
 import BgHero from './../assets/SVGS/BgHero'
+import { Hello } from '../components/Hello'
 
 
 
@@ -20,10 +21,10 @@ export default function Home() {
 
       </Head>
       <Header />
-      <BgHero className='-z-20 absolute top-0 left-0 right-0 bottom-0 w-screen ' />
+      {/* <BgHero className='-z-20 absolute top-0 left-0 right-0 bottom-0 w-screen ' /> */}
       <main className={styles.container} >
 
-        <section className={styles.containerHero} data-aos="fade-up" data-aos-delay="200" id='#home'>
+        <section className={styles.containerHero}  id='#home'>
 
           <div className={styles.container_item1}>
             <h1>Software Analyst</h1>
@@ -38,14 +39,16 @@ export default function Home() {
             </button>
           </div>
 
-          <div className={styles.container_item2} data-aos="fade-up" data-aos-delay="0">
+          <div className={styles.container_item2} >
             <UnionDegrade />
-            <div className={styles.stacks} data-aos="fade-up" data-aos-delay="400" data-aos-offset="200">
+            <div className={styles.stacks} >
               <SlacksIcons />
             </div>
           </div>
         </section>
+        <Hello id='#about' />
       </main>
+
     </>
   )
 }
