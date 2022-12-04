@@ -5,7 +5,6 @@ import { Header } from '../components/Header'
 import styles from '../styles/pages/Hero.module.scss'
 import UnionDegrade from '../assets/SVGS/UnionDegrade'
 import SlacksIcons from '../assets/SVGS/SlacksIcons'
-import BgHero from './../assets/SVGS/BgHero'
 import { Hello } from '../components/Hello'
 import { AcademicEducation } from '../components/AcademicEducation'
 import { MyProjects } from '../components/MyProjects'
@@ -14,6 +13,7 @@ import {menuHelpers } from '../utils/helpers'
 import { useRouter } from 'next/router'
 import Image from 'next/image'
 import BackgroundHero from '../assets/bg-hero.png'
+
 
 export default function Home() {
   const router = useRouter();
