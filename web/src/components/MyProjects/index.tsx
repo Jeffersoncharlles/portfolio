@@ -8,15 +8,16 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/autoplay';
-import "swiper/css/effect-coverflow";
-import "swiper/css/a11y";
 
 import { CardSliderProject } from './CardSliderProject';
+import { useState } from 'react';
 
 
 interface Props extends React.HTMLAttributes<HTMLDivElement> { }
 
-export const MyProjects = ({ ...rest}:Props) => {
+export const MyProjects = ({ ...rest }: Props) => {
+    const [active,setActive] = useState(0)
+
     const card = [{ title: 'ssss' }, { title: 'saasa' }, { title: 'dddddd' }, { title: 'eeee' }]
 
 
@@ -25,21 +26,23 @@ export const MyProjects = ({ ...rest}:Props) => {
         <section className={styles.container} {...rest}>
             <Swiper
                 // effect={"slide"}
-                modules={[Autoplay, A11y]}
-                breakpoints={{
-                    640: {
-                        width: 640,
-                        slidesPerView: 1
-                    },
-                    960: {
-                        width: 960,
-                        slidesPerView: 2
-                    }
-                }}
+                modules={[Autoplay]}
+                // breakpoints={{
+                //     640: {
+                //         width: 640,
+                //         slidesPerView: 1
+                //     },
+                //     960: {
+                //         width: 960,
+                //         slidesPerView: 2
+                //     }
+                // }}
                 centeredSlides={true}
-                spaceBetween={40}
-                grabCursor // mãozinha no item
-                slidesPerView="auto" //quantos ver
+                spaceBetween={50}
+                // grabCursor // mãozinha no item
+                slidesPerView={3} //quantos ver
+                speed={800}
+                onSlideChange={(cur) => setActive((cur?.realIndex))}
                 // loop={true}
                 autoplay={{
                     delay: 15000,
@@ -47,10 +50,10 @@ export const MyProjects = ({ ...rest}:Props) => {
                     disableOnInteraction: false
                 }}
             >
-                {card.map((item) => (
+                {card.map((item,index) => (
                     <SwiperSlide key={item.title}>
 
-                        <CardSliderProject title={item.title} />
+                        <CardSliderProject title={item.title} active={active} index={index} />
                     </SwiperSlide>
                 ))}
 
