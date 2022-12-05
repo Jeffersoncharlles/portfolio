@@ -1,11 +1,7 @@
 .container{
-  width: 340px;
-  height: 240px;
-  color: #fff;
-  background: salmon;
+  @apply flex flex-col gap-9;
 }
-.active{
-  height: 429.77px;
-  width: 500px;
 
+.container_body{
+  @apply flex flex-col justify-center items-start gap-9;
 }

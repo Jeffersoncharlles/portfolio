@@ -56,8 +56,9 @@ export default function Home() {
         <Hello id='about' />
         <AcademicEducation id="formation" />
         <MyProjects />
-        <Footer/>
+        <Footer />
       </main>
+
 
     </>
   )

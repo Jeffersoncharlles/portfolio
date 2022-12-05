@@ -17,3 +17,9 @@ export const menuHelpers = [
   { title: 'Contact', linkUrl: '#contact'},
   { title: 'Blog', linkUrl: '/Blog'},
 ]
+
+export const projects = [
+  { title: 'IgNews', imageUrl: '/ignews.png', body: 'Who can use contextual advertising on theair website?'},
+  { title: 'blogRepository', imageUrl: '/ignews.png', body: 'Blog com repositorio do github usando a issus'},
+  { title: 'Coffee', imageUrl: '/ignews.png', body: 'loja virtual de coffe and coffe with card'},
+]
