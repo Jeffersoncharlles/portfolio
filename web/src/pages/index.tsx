@@ -13,6 +13,7 @@ import {menuHelpers } from '../utils/helpers'
 import { useRouter } from 'next/router'
 import Image from 'next/image'
 import BackgroundHero from '../assets/bg-hero.png'
+import { Carrossel } from '../components/Carrossel'
 
 
 export default function Home() {
@@ -56,6 +57,7 @@ export default function Home() {
         <Hello id='about' />
         <AcademicEducation id="formation" />
         <MyProjects />
+
         <Footer />
       </main>
 

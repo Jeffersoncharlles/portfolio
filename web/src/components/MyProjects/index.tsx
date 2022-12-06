@@ -30,16 +30,16 @@ export const MyProjects = ({ ...rest }: Props) => {
             <Swiper
                 // effect={"slide"}
                 // modules={[Autoplay]}
-                breakpoints={{
-                    640: {
-                        width: 640,
-                        slidesPerView: 1
-                    },
-                    960: {
-                        width: 960,
-                        slidesPerView: 2
-                    }
-                }}
+                // breakpoints={{
+                //     640: {
+                //         width: 640,
+                //         slidesPerView: 1
+                //     },
+                //     960: {
+                //         width: 960,
+                //         slidesPerView: 2
+                //     }
+                // }}
                 centeredSlides={true}
                 spaceBetween={40}
                 grabCursor // mãozinha no item

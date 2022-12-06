@@ -20,6 +20,7 @@ export const menuHelpers = [
 
 export const projects = [
   { title: 'IgNews', imageUrl: '/ignews.png', body: 'Who can use contextual advertising on theair website?'},
-  { title: 'blogRepository', imageUrl: '/ignews.png', body: 'Blog com repositorio do github usando a issus'},
-  { title: 'Coffee', imageUrl: '/ignews.png', body: 'loja virtual de coffe and coffe with card'},
+  { title: 'blogRepository', imageUrl: '/blog.png', body: 'Blog com repositorio do github usando a issus'},
+  { title: 'Coffee', imageUrl: '/coffe.png', body: 'loja virtual de coffe and coffe with card'},
+  { title: 'Nubank', imageUrl: '/nubank.png', body: 'designer nubank imagination'},
 ]
