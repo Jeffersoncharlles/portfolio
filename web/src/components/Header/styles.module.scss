@@ -1,10 +1,11 @@
 
 .container{
   @apply text-gray-100 w-full pt-4;
+
 }
 
 .header{
-  @apply max-w-[1440px] mt-0 mx-auto flex h-12 justify-between items-center;
+@apply max-w-[1440px] mt-0 mx-auto flex h-12 justify-between items-center;
 
 
   img{

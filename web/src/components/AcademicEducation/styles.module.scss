@@ -1,5 +1,9 @@
 
 
 .container{
-  @apply flex w-[1230] justify-between relative;
+  @apply flex flex-col mx-auto justify-between relative mb-12;
+
+  @screen lg{
+    @apply flex w-[1230] flex-row mx-auto justify-between relative;
+  }
 }

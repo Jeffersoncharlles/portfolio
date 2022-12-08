@@ -3,6 +3,7 @@
 .container{
   @apply text-gray-50 flex flex-col my-48 mx-auto gap-24 w-full items-center ;
 
+
   >h2{
     @apply font-sans2 text-5xl font-bold  block ;
 
@@ -14,9 +15,15 @@
 
 .container_about_stacks{
   // border: 1px solid salmon;
-  @apply w-[1246px] h-full flex gap-20 justify-between items-center ;
+  @apply  flex flex-col gap-20 justify-between items-center;
 
-  .box{
-    @apply flex flex-col justify-center items-start gap-4;
+  .box {
+      @apply flex flex-col justify-center items-start gap-4;
+    }
+
+  @screen lg{
+    @apply w-[1246px] h-full flex flex-row gap-20 justify-between items-center;
+
+
   }
 }

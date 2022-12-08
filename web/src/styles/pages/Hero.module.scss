@@ -7,7 +7,7 @@
   @apply flex flex-col my-8 mx-auto gap-24;
 
   @screen lg{
-      @apply flex flex-row justify-between mt-44 gap-24;
+      @apply flex flex-row justify-between mx-auto mt-44 gap-24;
   }
 }
 

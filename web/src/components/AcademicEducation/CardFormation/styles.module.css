@@ -1,0 +1,11 @@
+.container{
+  @apply flex justify-center items-start;
+}
+
+.avatar{
+  @apply w-[86px] h-[86px];
+}
+
+.container_card_body{
+  @apply flex flex-col ml-7 gap-1 justify-center;
+}
