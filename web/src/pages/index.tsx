@@ -50,7 +50,7 @@ export default function Home() {
           <div className={styles.container_item2} >
             <UnionDegrade />
             <div className={styles.stacks} >
-              <SlacksIcons />
+              <SlacksIcons className={styles.icons} />
             </div>
           </div>
         </section>

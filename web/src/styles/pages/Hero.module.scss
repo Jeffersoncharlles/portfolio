@@ -4,7 +4,7 @@
 }
 
 .containerHero {
-  @apply flex flex-col my-8 mx-auto gap-24;
+  @apply flex flex-col my-12  items-center mx-auto p-12 gap-24;
 
   @screen lg{
       @apply flex flex-row justify-between mx-auto mt-44 gap-24;
@@ -31,11 +31,11 @@
 
 
 .container_item2 {
-  @apply relative ;
+  @apply relative  flex flex-col justify-center items-center   ;
 
     .stacks {
       perspective: 500px;
-      @apply  absolute top-0 z-10;
+      @apply  absolute top-0 z-10   ;
     }
 
 
@@ -44,10 +44,14 @@
 
       .stacks {
         perspective: 500px;
-        @apply absolute top-0 z-10;
+        @apply absolute top-0 z-10 ;
       }
 
   }
 
 
+}
+.icons{
+  //md e quando ta em tela grande
+  @apply w-96 h-96 md:w-full md:h-full;
 }

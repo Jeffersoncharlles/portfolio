@@ -1,7 +1,7 @@
 import React from "react";
 import styles from './styles.module.scss'
 
-function Icon() {
+function Icon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
@@ -9,6 +9,7 @@ function Icon() {
       height='583'
       fill='none'
       viewBox='0 0 589 583'
+      {...props}
     >
       <g id='logos Stacks'>
         <g id='React-Native' fill='#61DAFB' className={styles.reactNative}>
