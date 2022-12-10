@@ -4,34 +4,35 @@
 }
 
 .containerHero {
-  @apply flex flex-col my-12  items-center mx-auto p-12 gap-24;
+  @apply flex flex-col mx-auto  items-center p-12 gap-24 mt-44 w-full ;
 
   @screen lg{
-      @apply flex flex-row justify-between mx-auto mt-44 gap-24;
+      @apply flex flex-row items-start  justify-between;
   }
 }
 
 .container_item1 {
+  @apply flex flex-col items-start gap-7 w-full;
   >h1 {
-    @apply font-sans font-medium text-7xl text-gray-50;
+    @apply font-sans font-medium text-6xl text-gray-50;
   }
 
   >h4 {
-    @apply font-sans2 font-semibold text-5xl text-gray-50 mt-4;
+    @apply font-sans2 font-semibold text-5xl text-gray-50 ;
   }
 
   >p {
-    @apply mt-8 text-base text-gray-100 w-96;
+    @apply  text-base text-gray-100 w-96;
   }
 
   >button{
-    @apply mt-8 bg-gray-800 font-sans2 text-lg text-gray-100 py-2 px-8  rounded;
+    @apply  bg-gray-800 font-sans2 text-lg text-gray-100 py-2 px-8  rounded;
   }
 }
 
 
 .container_item2 {
-  @apply relative  flex flex-col justify-center items-center   ;
+  @apply relative flex flex-row items-start gap-4 w-[628px] h-[628px] ;
 
     .stacks {
       perspective: 500px;
@@ -54,4 +55,8 @@
 .icons{
   //md e quando ta em tela grande
   @apply w-96 h-96 md:w-full md:h-full;
+}
+
+.union{
+  @apply w-96 h-96 md:w-[628px] md:h-[628px];
 }
