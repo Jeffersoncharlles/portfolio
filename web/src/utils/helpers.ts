@@ -24,3 +24,10 @@ export const projects = [
   { title: 'Coffee', imageUrl: '/coffe.png', body: 'loja virtual de coffe and coffe with card'},
   { title: 'Nubank', imageUrl: '/nubank.png', body: 'designer nubank imagination'},
 ]
+
+export const academic = [
+  { title: 'Faculdade Católica Paulista', description: 'Software analyst and Development', imagUrl:'/1623686887166.jpg', dateFrom: 2021, dateTo:2023},
+  { title: 'Rocketseat', description: 'React-Native  Specialization', imagUrl:'/rocket.jpg', dateFrom: 2021, dateTo:2022},
+  { title: 'Rocketseat', description: 'ReactJS  Specialization', imagUrl:'/rocket.jpg', dateFrom: 2021, dateTo:2022},
+  { title: 'Rocketseat', description: 'NodeJS Specialization', imagUrl:'/rocket.jpg', dateFrom: 2021, dateTo:2022},
+]

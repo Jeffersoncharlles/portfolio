@@ -1,9 +1,5 @@
 
 
 .container{
-  @apply flex flex-col mx-auto justify-between relative lg:my-12 my-24;
-
-  @screen lg{
-    @apply flex w-full flex-row mx-auto justify-between relative;
-  }
+  @apply flex flex-row w-full justify-between lg:flex-col  my-24 lg:items-center lg:justify-center  ;
 }

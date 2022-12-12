@@ -4,6 +4,18 @@ module.exports = {
     './src/**/*.tsx',
   ],
   theme: {
+    screens: {
+      '2xl': { 'max': '1440px' },
+      // => @media (max-width: 1440px) { ... }
+      'xl': { 'max': '1216px' },
+      // => @media (max-width: 1216px) { ... }
+      'lg': { 'max': '960px' },
+      // => @media (max-width: 960px) { ... }
+      'md': { 'max': '620px' },
+      // => @media (max-width: 620px) { ... }
+      'sm': { 'max': '340px' },
+      // => @media (max-width: 340px) { ... }
+    },
     extend: {
       fontFamily: {
         sans: ['JetBrains Mono', 'sans-serif'],

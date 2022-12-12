@@ -1,14 +1,24 @@
 import styles from './styles.module.css'
 
-export const CardFormation = () => {
+interface Props {
+  data: {
+    title: string;
+    description: string;
+    imagUrl: string;
+    dateFrom: number;
+    dateTo: number;
+  }
+}
+
+export const CardFormation = ({data }:Props) => {
 
     return(
         <div className={styles.container}>
-          <img src="/1623686887166.jpg" alt="" className={styles.avatar} />
-        <div className={styles.container_card_body}>
-            <h4 className='font-sans2 text-2xl text-gray-50 '>Faculdade Católica Paulista</h4>
-            <p>Software analyst and Development</p>
-            <span className='text-gray-300'>2021-2023</span>
+          <img src={data.imagUrl} alt="" className={styles.avatar} />
+          <div className={styles.container_card_body}>
+            <h4 className='font-sans2 text-2xl text-gray-50 '>{data.title}</h4>
+            <p>{data.description}</p>
+            <span className='text-gray-300'>{data.dateFrom}-{ data.dateTo}</span>
           </div>
         </div>
     );
