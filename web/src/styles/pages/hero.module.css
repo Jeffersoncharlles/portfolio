@@ -1,10 +1,9 @@
 .container {
   @apply max-w-[1440px] mt-0 mx-auto flex flex-col items-center justify-center overflow-hidden  xl:mx-12 2xl:mx-8 ;
-
 }
-//////////////////////////////////////////////////////
-.containerHero {
+/*==============================================================*/
 
+.containerHero {
   @apply flex  mx-auto  mt-36 w-full flex-row  lg:items-center lg:justify-between lg:flex-col lg:gap-12;
 }
 
@@ -24,8 +23,8 @@
   @apply bg-gray-800 font-sans2 text-lg text-gray-100 py-2 px-8 rounded;
 }
 
+/*==============================================================*/
 
-///======================================//
 .container_item2 {
   @apply relative flex flex-row items-start gap-4 w-[628px] h-[628px] ;
 }
@@ -35,7 +34,7 @@
 }
 
 .icons{
-  //md e quando ta em tela grande
+
   @apply  w-full h-full;
 }
 

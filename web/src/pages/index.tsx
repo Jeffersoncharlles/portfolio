@@ -2,7 +2,7 @@
 import { GetStaticProps } from 'next'
 import Head from 'next/head'
 import { Header } from '../components/Header'
-import styles from '../styles/pages/Hero.module.scss'
+import styles from '../styles/pages/hero.module.css'
 import UnionDegrade from '../assets/SVGS/UnionDegrade'
 import SlacksIcons from '../assets/SVGS/SlacksIcons'
 import { Hello } from '../components/Hello'
@@ -35,14 +35,14 @@ export default function Home() {
         <section className={styles.containerHero}  id='home'>
 
           <div className={styles.container_item1}>
-            <h1 aria-label='Software Analyst'>Software Analyst</h1>
-            <h4>Jefferson Charlles</h4>
-            <p>
+            <h1 className={styles.container_title} aria-label='Software Analyst'>Software Analyst</h1>
+            <h4 className={styles.container_subtitle}>Jefferson Charlles</h4>
+            <p className={styles.container_body}>
               code beautifully things and l love what I do
               I'm always learning. I love technology, energy
               drinks and applying knowledge to solve problem
             </p>
-            <button>
+            <button className={styles.container_button}>
               Chat me
             </button>
           </div>
