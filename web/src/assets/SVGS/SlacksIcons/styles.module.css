@@ -1,27 +1,21 @@
 
-
 .reactNative{
-
   animation: stack 7s ease infinite alternate ;
 }
 
 .nodeJs{
-
-    animation: node 5s ease  infinite alternate;
+  animation: node 5s ease  infinite alternate;
 }
 
 .vscode{
-
   animation: stack 7s ease  infinite alternate;
 }
 
 .reactjs{
-
   animation: reactjs 7s ease infinite alternate;
 }
 
 .typescript{
-
   animation: types 7s ease infinite alternate;
 }
 
