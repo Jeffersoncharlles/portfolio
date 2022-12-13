@@ -10,8 +10,6 @@
   box-sizing: border-box;
 }
 
-
-
 a {
   color: inherit;
   text-decoration: none;
@@ -24,30 +22,17 @@ li {
 
 body{
   @apply w-full h-full bg-gray-900 text-gray-100  relative overflow-x-hidden;
+}
 
+body::-webkit-scrollbar{
+  width: 6px;
+  height: 6px;
+}
 
-     &::-webkit-scrollbar {
-       width: 6px;
-       height: 6px;
-     }
-
-     &::-webkit-scrollbar-thumb {
-       background: #767576;
-     }
+body::-webkit-scrollbar-thumb{
+  background: #767576;
 }
 
 .swiper-slide ,.swiper-slide-active{
   transform: scale(1.2);
 }
-
-
-// @media (prefers-color-scheme: dark) {
-//   html {
-//     color-scheme: dark;
-//   }
-
-//   body {
-//     color: white;
-//     background: black;
-//   }
-// }

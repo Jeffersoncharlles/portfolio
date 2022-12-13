@@ -1,19 +1,20 @@
 import Image from "next/image"
 import Logo from '../../assets/logo.svg'
+import styles from './styles.module.css'
 
 
 export const Footer = () => {
 
   return (
-    <footer className="h-11 flex justify-between items-center mb-16 mt-48">
+    <footer className={styles.footerContainer}>
       <Image
         src={Logo}
         alt=""
-        className="w-9 h-9"
+        className={styles.logoContainer}
       />
-      <div >
-        <span className="mr-6">Support</span>
-        <span className="mr-6">Privacy Policy</span>
+      <div className={styles.footerTerms} >
+        <span >Support</span>
+        <span >Privacy Policy</span>
         <span>Terms and Conditions</span>
       </div>
       <div>

@@ -1,0 +1,31 @@
+
+.container{
+  @apply text-gray-100 w-full pt-4;
+}
+
+.header{
+  @apply max-w-[1440px] mt-0 mx-auto flex h-12 justify-between items-center;
+}
+.navbardesk{
+
+}
+.navbarUl{
+  @apply flex gap-1 ;
+}
+
+.navbarLi{
+  @apply py-2 px-4 uppercase  transition-colors hover:text-gray-200;
+}
+
+.socials{
+  @apply flex gap-4;
+}
+
+.imagemHeader{
+  @apply w-11 h-11 ;
+}
+
+
+.active_header{
+  @apply bg-slate-800 ;
+}

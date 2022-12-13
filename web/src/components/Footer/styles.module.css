@@ -1,0 +1,10 @@
+
+.footerContainer{
+  @apply h-11 flex justify-between items-center mb-16 mt-48;
+}
+.logoContainer{
+  @apply w-9 h-9 ;
+}
+.footerTerms{
+  @apply gap-6;
+}

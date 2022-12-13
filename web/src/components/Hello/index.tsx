@@ -8,7 +8,7 @@ export const Hello = ({ ...rest}:Props) => {
 
     return(
       <section className={styles.container} {...rest}>
-        <h2>Hello!!👋 I’m {"\n"}
+        <h2 className={styles.subtitle}>Hello!!👋 I’m {"\n"}
           <strong>Jefferson charlles</strong>
         </h2>
         <div className={styles.container_about_stacks}>

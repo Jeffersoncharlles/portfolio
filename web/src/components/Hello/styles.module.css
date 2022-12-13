@@ -1,0 +1,12 @@
+.container{
+   @apply text-gray-50 flex flex-col my-48 mx-auto gap-24 w-full items-center ;
+}
+.subtitle{
+
+}
+.container_about_stacks{
+
+}
+.box{
+
+}
