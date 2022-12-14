@@ -6,8 +6,6 @@ const Vscode = (
 
 ) => (
   <svg
-    width={530}
-    height={387}
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     {...props}

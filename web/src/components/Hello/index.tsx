@@ -1,5 +1,5 @@
 import { Box } from './Box';
-import styles from './styles.module.scss'
+import styles from './styles.module.css'
 import Vscode from '../../assets/SVGS/VsCodeSoft'
 
 interface Props extends React.HTMLAttributes<HTMLDivElement>{}
@@ -17,7 +17,7 @@ export const Hello = ({ ...rest}:Props) => {
             <Box />
             <Box />
           </div>
-          <Vscode />
+          <Vscode className='w-[530px] h-[387px]'/>
         </div>
       </section>
     );

@@ -1,12 +1,12 @@
 .container{
-   @apply text-gray-50 flex flex-col my-48 mx-auto gap-24 w-full items-center ;
+   @apply text-gray-50 flex flex-col my-48 mx-auto gap-24 w-full items-center lg:justify-center ;
 }
 .subtitle{
-
+    @apply font-sans2 text-5xl font-bold  block lg:text-3xl;
 }
 .container_about_stacks{
-
+   @apply w-full h-full  flex  gap-20 justify-between items-center lg:flex-col;
 }
 .box{
-
+   @apply flex flex-col  justify-center items-start gap-4 lg:hidden lg:pointer-events-none;
 }
