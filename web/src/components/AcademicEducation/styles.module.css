@@ -1,4 +1,14 @@
-
 .container{
-  @apply flex flex-row w-full justify-between lg:flex-col  my-24 lg:items-center lg:justify-center;
+  @apply flex flex-col justify-start items-end w-full lg:items-center;
+}
+
+.container_title{
+  @apply font-sans2 font-bold text-7xl absolute md:text-4xl;
+}
+.container_About{
+  @apply flex flex-row w-full justify-between lg:flex-col  my-24 lg:items-center lg:justify-center md:items-start md:p-8 ;
+}
+.container_cards{
+
+  @apply flex flex-col  gap-4;
 }

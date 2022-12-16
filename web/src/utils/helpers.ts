@@ -12,9 +12,8 @@ export const socialsMenu = [
 
 export const menuHelpers = [
   { title: 'Home', linkUrl: '/'},
-  { title: 'About', linkUrl: '#about'},
   { title: 'Academic', linkUrl: '#formation'},
-  { title: 'Contact', linkUrl: '#contact'},
+  { title: 'MyProject', linkUrl: '#myproject'},
   { title: 'Blog', linkUrl: '/Blog'},
 ]
 

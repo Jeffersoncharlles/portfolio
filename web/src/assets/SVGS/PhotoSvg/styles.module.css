@@ -1,0 +1,12 @@
+
+
+.borderImg{
+  @apply w-[460.401px]  h-[619.176px] md:w-[226px] md:h-[332px];
+}
+.background_img{
+  @apply w-[426px]  h-[570px] md:w-[196.78px] md:h-[300px];
+}
+
+.images{
+  @apply w-[426px] h-[570px] md:w-[196.78px] md:h-[340px] ;
+}

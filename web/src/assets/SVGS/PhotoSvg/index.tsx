@@ -1,5 +1,5 @@
 import * as React from "react"
-import styles from './styles.module.scss'
+import styles from './styles.module.css'
 
 interface Props extends React.SVGProps<SVGSVGElement> {
   styleClass?: string;
@@ -8,8 +8,6 @@ interface Props extends React.SVGProps<SVGSVGElement> {
 
 const SvgComponent = ({ urlImage, styleClass, ...rest }:Props) => (
   <svg
-    width={587}
-    height={760}
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     {...rest}
@@ -18,18 +16,15 @@ const SvgComponent = ({ urlImage, styleClass, ...rest }:Props) => (
       <rect
         x={80.981}
         y={29.248}
-        width={426}
-        height={570}
         rx={2}
         fill="#D5D6D8"
+        className={styles.background_img}
       />
-      <image className={styles.images} href={urlImage} width="426" height='570' x={80.981} y={29.248} />
+      <image className={styles.images} href={urlImage}  x={80.981} y={29.248} />
     </g>
     <rect
       x={56.97}
       y={15.161}
-      width={460.401}
-      height={619.176}
       rx={3}
       transform="rotate(-1.766 56.97 15.16)"
       stroke="#868587"

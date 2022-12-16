@@ -13,7 +13,7 @@ module.exports = {
       // => @media (max-width: 960px) { ... }
       'md': { 'max': '620px' },
       // => @media (max-width: 620px) { ... }
-      'sm': { 'max': '340px' },
+      'sm': { 'max': '375px' },
       // => @media (max-width: 340px) { ... }
     },
     extend: {
