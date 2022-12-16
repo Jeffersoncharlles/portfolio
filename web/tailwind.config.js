@@ -7,8 +7,8 @@ module.exports = {
     screens: {
       '2xl': { 'max': '1440px' },
       // => @media (max-width: 1440px) { ... }
-      'xl': { 'max': '1216px' },
-      // => @media (max-width: 1216px) { ... }
+      'xl': { 'max': '1024px' },
+      // => @media (max-width: 1024px) { ... }
       'lg': { 'max': '960px' },
       // => @media (max-width: 960px) { ... }
       'md': { 'max': '620px' },

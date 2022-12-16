@@ -54,7 +54,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <Hello id='about' />
+        {/* <Hello id='about' /> */}
         <AcademicEducation id="formation" />
         <MyProjects />
 

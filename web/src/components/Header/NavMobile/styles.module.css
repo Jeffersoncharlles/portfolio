@@ -1,0 +1,14 @@
+.container{
+  @apply w-full h-full  justify-center items-center opacity-0 pointer-events-none hidden;
+}
+
+.navbarMobile{
+  @apply flex flex-col;
+}
+
+.menu_mobile_list_link{
+  @apply inline-block py-4 px-6 relative mb-4;
+}
+.active_mobile {
+ @apply opacity-100 pointer-events-auto flex;
+}

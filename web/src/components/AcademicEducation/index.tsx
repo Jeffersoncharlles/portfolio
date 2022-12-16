@@ -15,8 +15,8 @@ export const AcademicEducation = ({ ...rest }) => {
             <PhotoSvg urlImage='/me2.png' />
           </div>
           <div className='flex flex-col  mt-36 gap-4'>
-            {academic.map((item) => (
-              <CardFormation key={item.title} data={item} />
+            {academic.map((item,index) => (
+              <CardFormation key={index} data={item} />
             ))}
 
           </div>

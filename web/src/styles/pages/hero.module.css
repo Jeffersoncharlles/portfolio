@@ -1,10 +1,10 @@
 .container {
-  @apply max-w-[1440px] mt-0 mx-auto flex flex-col items-center justify-center overflow-hidden  xl:mx-12 2xl:mx-8 ;
+  @apply max-w-[1440px] mt-0 mx-auto flex flex-col items-center justify-center overflow-hidden  xl:mx-12 2xl:mx-8  lg:mx-auto md:mx-auto;
 }
 /*==============================================================*/
 
 .containerHero {
-  @apply flex  mx-auto  mt-36 w-full flex-row  lg:items-center lg:justify-between lg:flex-col lg:gap-12;
+  @apply flex  mx-auto  mt-36 mb-48 w-full flex-row  lg:items-center lg:justify-between lg:flex-col lg:gap-12;
 }
 
 .container_item1 {
