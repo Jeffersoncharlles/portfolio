@@ -48,11 +48,11 @@ export default function Home() {
           </div>
 
           <div className={styles.container_item2} >
-            <UnionDegrade className={styles.union} />
-            <div className={styles.stacks} >
-              <SlacksIcons className={styles.icons} />
-            </div>
-          </div>
+              <UnionDegrade className={styles.union} />
+              <div className={styles.stacks} >
+                <SlacksIcons className={styles.icons} />
+              </div>
+           </div>
         </section>
         {/* <Hello id='about' /> */}
         <AcademicEducation id="formation" />
