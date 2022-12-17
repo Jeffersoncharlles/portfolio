@@ -1,13 +1,19 @@
 .container{
-  @apply flex flex-col justify-start items-end w-full lg:items-center;
+  @apply flex flex-col  justify-start items-end w-full lg:items-center;
 }
 
 .container_title{
   @apply font-sans2 font-bold text-7xl absolute md:text-4xl;
 }
 .container_About{
-  @apply flex flex-row w-full justify-between lg:flex-col  my-24 lg:items-center lg:justify-center md:items-start md:p-8 ;
+
+  @apply flex flex-row  w-full  justify-between lg:flex-col  mt-24 px-4 py-4 lg:items-center lg:justify-center  md:p-8 ;
 }
+.picture{
+  /* border: 1px solid seagreen; */
+  @apply flex justify-center  items-center mb-6;
+}
+
 .container_cards{
 
   @apply flex flex-col  gap-4;

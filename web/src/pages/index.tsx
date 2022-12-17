@@ -30,7 +30,7 @@ export default function Home() {
       <main className={styles.container} >
 
         <Hero id='home' />
-        <AcademicEducation id="formation" />
+        <AcademicEducation id="formation"  />
         <MyProjects id="myproject" />
 
         <Footer />

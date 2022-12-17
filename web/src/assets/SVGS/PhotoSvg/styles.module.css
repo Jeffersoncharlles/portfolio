@@ -1,4 +1,7 @@
 
+.pictureSvg{
+  @apply w-[587px] h-[760px] md:w-[370px] md:h-[400px];
+}
 
 .borderImg{
   @apply w-[460.401px]  h-[619.176px] md:w-[226px] md:h-[332px];

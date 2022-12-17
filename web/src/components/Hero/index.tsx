@@ -7,7 +7,7 @@ export const Hero = ({...rest}:Props) => {
     return(
       <section className={styles.containerHero}  {...rest}>
 
-        <div className={styles.container_item1}>
+        <div className={styles.container_item1} data-aos="fade-up" >
           <h1 className={styles.container_title} aria-label='Software Analyst'>Software Analyst</h1>
           <h4 className={styles.container_subtitle}>Jefferson Charlles</h4>
           <p className={styles.container_body}>
@@ -20,7 +20,7 @@ export const Hero = ({...rest}:Props) => {
           </button>
         </div>
 
-        <div className={styles.container_item2} >
+        <div className={styles.container_item2} data-aos="fade-up">
           <UnionDegrade className={styles.union} />
           <div className={styles.stacks} >
             <SlacksIcons className={styles.icons} />

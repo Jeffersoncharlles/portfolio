@@ -1,5 +1,5 @@
 .containerHero {
-  @apply flex  mx-auto  mt-36 mb-48 w-full flex-row  lg:items-center lg:justify-between lg:flex-col lg:gap-12;
+  @apply flex  mx-auto  mt-36 mb-48 w-full flex-row  lg:items-center lg:justify-between lg:flex-col lg:gap-12 md:mb-0;
 }
 
 .container_item1 {

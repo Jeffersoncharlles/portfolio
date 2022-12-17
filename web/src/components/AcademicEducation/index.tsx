@@ -9,10 +9,12 @@ export const AcademicEducation = ({ ...rest }) => {
 
     return(
       <section className={styles.container}  {...rest}>
-        <h2 className={styles.container_title}>Academic Education</h2>
+        <h2 className={styles.container_title} data-aos="fade-left">Academic Education</h2>
         <div className={styles.container_About}>
-            <PhotoSvg urlImage='/me2.png' width={587} height={760} />
-          <div className={styles.container_cards}>
+          <picture className={styles.picture} data-aos="fade-up" >
+            <PhotoSvg urlImage='/me2.png'  />
+          </picture>
+          <div className={styles.container_cards} data-aos="fade-up">
             {academic.map((item,index) => (
               <CardFormation key={index} data={item} />
             ))}
