@@ -28,14 +28,12 @@ export default function Home() {
       <Header menu={menuHelpers} />
       <Image src={BackgroundHero} alt="" className='-z-20 absolute top-0 left-0 right-0 bottom-0 w-screen ' />
       <main className={styles.container} >
-
         <Hero id='home' />
         <AcademicEducation id="formation"  />
         <MyProjects id="myproject" />
 
-        <Footer />
       </main>
-
+      <Footer />
 
     </>
   )

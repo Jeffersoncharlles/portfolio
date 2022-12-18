@@ -1,6 +1,8 @@
 
 .footerContainer{
-  @apply h-11 flex justify-between items-center mb-16 mt-48;
+
+  @apply max-w-[1440px] mx-auto px-4  h-12 flex justify-between items-center mb-4 mt-48 lg:flex-col lg:gap-4 xl:mx-12 2xl:mx-8;
+  /*@apply max-w-[1440px] h-11 mx-auto mb-4 mt-16 flex justify-between items-center lg:hidden xl:mx-12 2xl:mx-8;*/
 }
 .logoContainer{
   @apply w-9 h-9 ;
