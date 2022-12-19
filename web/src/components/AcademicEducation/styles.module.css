@@ -3,7 +3,7 @@
 }
 
 .container_title{
-  @apply font-sans2 font-bold text-7xl absolute md:text-4xl;
+  @apply font-sans2 font-bold text-7xl absolute md:text-4xl sm:text-3xl;
 }
 .container_About{
 
