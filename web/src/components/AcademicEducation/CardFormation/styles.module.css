@@ -1,6 +1,6 @@
 .container{
 
-  @apply flex flex-row  items-start ;
+  @apply flex flex-row  items-start mt-8;
 }
 
 .avatar{
@@ -9,4 +9,7 @@
 
 .container_card_body{
   @apply flex flex-col ml-7 gap-1 justify-center;
+}
+.title{
+  @apply font-sans2 text-2xl text-gray-50 ;
 }

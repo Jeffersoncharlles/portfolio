@@ -4,15 +4,13 @@ import Head from 'next/head'
 import { Header } from '../components/Header'
 import styles from '../styles/pages/hero.module.css'
 import { AcademicEducation } from '../components/AcademicEducation'
-import { MyProjects } from '../components/MyProjects'
 import { Footer } from '../components/Footer'
 import {menuHelpers } from '../utils/helpers'
 import { useRouter } from 'next/router'
 import Image from 'next/image'
 import BackgroundHero from '../assets/bg-hero.png'
 import { Hero } from '../components/Hero'
-
-
+import { CarrosselProject } from '../components/CarrosselProject'
 
 export default function Home() {
   const router = useRouter();
@@ -30,9 +28,9 @@ export default function Home() {
       <main className={styles.container} >
         <Hero id='home' />
         <AcademicEducation id="formation"  />
-        <MyProjects id="myproject" />
-
+        <CarrosselProject id="myproject" />
       </main>
+
       <Footer />
 
     </>

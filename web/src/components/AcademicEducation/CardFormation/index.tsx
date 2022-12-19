@@ -16,7 +16,7 @@ export const CardFormation = ({data }:Props) => {
         <div className={styles.container}>
           <img src={data.imagUrl} alt="" className={styles.avatar} />
           <div className={styles.container_card_body}>
-            <h4 className='font-sans2 text-2xl text-gray-50 '>{data.title}</h4>
+          <h4 className={styles.title}>{data.title}</h4>
             <p>{data.description}</p>
             <span className='text-gray-300'>{data.dateFrom}-{ data.dateTo}</span>
           </div>
