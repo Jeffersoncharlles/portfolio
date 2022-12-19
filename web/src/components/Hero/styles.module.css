@@ -12,7 +12,7 @@
   @apply font-sans2 font-semibold text-5xl text-gray-50 xl:text-3xl sm:text-xl;
 }
 .container_body{
-  @apply text-base text-gray-100 w-96 xl:text-sm xl:pr-4 lg:items-center sm:text-xs sm:w-72 sm:p-2 ;
+  @apply text-base text-gray-100 w-96 xl:text-sm xl:pr-4 lg:items-center sm:text-xs sm:w-72 sm:p-2 sm:mr-2;
 }
 .container_button{
   @apply bg-gray-800 font-sans2 text-lg text-gray-100 py-2 px-8 rounded;
