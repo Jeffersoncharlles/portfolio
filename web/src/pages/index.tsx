@@ -27,9 +27,7 @@ export default function Home() {
         <AcademicEducation id="formation"  />
         <CarrosselProject id="myproject" />
       </main>
-
       <Footer />
-
     </>
   )
 }
