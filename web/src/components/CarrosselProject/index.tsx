@@ -1,6 +1,5 @@
 import styles from './styles.module.css'
 import Image from 'next/image';
-import { useState } from 'react';
 import { projects } from '../../utils/helpers';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
