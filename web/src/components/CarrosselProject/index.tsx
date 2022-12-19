@@ -14,8 +14,6 @@ import "swiper/css/pagination";
 interface Props extends React.HTMLAttributes<HTMLDivElement> { }
 
 export const CarrosselProject = ({ ...rest}:Props) => {
-    const [active, setActive] = useState<null | number>(null)
-
 
     return(
         <section className={styles.container} {...rest}>
@@ -55,7 +53,6 @@ export const CarrosselProject = ({ ...rest}:Props) => {
                         pauseOnMouseEnter: true,
                         disableOnInteraction: false
                     }}
-                    onSlideChange={(curr) => setActive(curr.realIndex)}
                     className={styles.cards}
                 >
                     {projects.map((item, index) => (

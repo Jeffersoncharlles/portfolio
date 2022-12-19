@@ -3,7 +3,6 @@ import styles from './styles.module.css'
 import Logo from '../../assets/logo.svg'
 import { EnvelopeSimple, InstagramLogo, GithubLogo } from 'phosphor-react'
 import Link from "next/link";
-import { useRouter } from "next/router";
 import { NavMobile } from "./NavMobile";
 import { useState } from "react";
 
@@ -20,7 +19,7 @@ interface Props{
 
 export const Header = ({ menu }: Props) => {
   const [showingBurger, setShowingBurger] = useState(false)
-  const router = useRouter()
+
 
 
   const handleShowingBurger = () => {

@@ -3,7 +3,7 @@ import AOS from 'aos';
 import "aos/src/sass/aos.scss"
 
 import type { AppProps } from 'next/app'
-import { useEffect, useLayoutEffect } from 'react'
+import { useEffect } from 'react'
 
 export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {

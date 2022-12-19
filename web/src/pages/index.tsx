@@ -6,15 +6,12 @@ import styles from '../styles/pages/hero.module.css'
 import { AcademicEducation } from '../components/AcademicEducation'
 import { Footer } from '../components/Footer'
 import {menuHelpers } from '../utils/helpers'
-import { useRouter } from 'next/router'
 import Image from 'next/image'
 import BackgroundHero from '../assets/bg-hero.png'
 import { Hero } from '../components/Hero'
 import { CarrosselProject } from '../components/CarrosselProject'
 
 export default function Home() {
-  const router = useRouter();
-
 
   return (
     <>

@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { Header } from '../../components/Header';
-import styles from './styles.module.scss'
+import styles from './styles.module.css'
 
 const blog = () => {
 
@@ -11,6 +11,7 @@ const blog = () => {
             <meta name="description" content="Portfolio Jefferson Charlles" />
         </Head>
             <Header />
+            <main className={styles.container}></main>
         </>
     );
 }
