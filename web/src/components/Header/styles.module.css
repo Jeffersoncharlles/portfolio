@@ -4,7 +4,7 @@
 }
 
 .header{
-  @apply max-w-[1440px] mt-0 mx-auto flex h-12 justify-between items-center lg:hidden xl:mx-12 2xl:mx-8;
+  @apply max-w-[1440px] mt-0 mx-auto flex h-12 justify-between items-center lg:hidden xl:mx-12 2xl:mx-8 sm:mb-0;
 }
 .navbarDesk{
 
@@ -42,7 +42,7 @@
 }
 
 .bx{
-  @apply w-9 h-9 relative cursor-pointer z-10;
+  @apply w-9 h-9 relative cursor-pointer z-10 before:absolute before:w-[70%] before:h-[2px] before:top-[64%] before:left-[17%] before:bg-white ;
 }
 
 .bx::after{
@@ -58,15 +58,7 @@
 }
 
 .bx::before {
-  content: "";
-  position: absolute;
-  width: 70%;
-  height: 2px;
   transition: .7s ease;
-
-  top: 64%;
-  left: 17%;
-  background-color: #ffff;
 }
 
 .active_bx {
