@@ -59,7 +59,7 @@ export const CarrosselProject = ({ ...rest}:Props) => {
                             <div>
                                  <Image src={item.imageUrl} alt="" width={573} height={380.65} />
                                 <div className={styles.cards_body}>
-                                    <h4 className={styles.titleCard}>{item.title}</h4>
+                                    <h3 className={styles.titleCard}>{item.title}</h3>
                                     <p className={styles.body}>{item.body.length >= 78 ? item.body.slice(0, 78).concat('...') : item.body}</p>
                                 </div>
                            </div>
