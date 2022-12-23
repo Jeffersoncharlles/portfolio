@@ -48,9 +48,9 @@ export const Header = ({ menu }: Props) => {
           </ul>
         </nav>
         <div className={styles.socials}>
-          <a href=""><InstagramLogo size={24} alt="Instagram" /></a>
-          <a href=""><GithubLogo size={24} alt="Github" /></a>
-          <a href=""><EnvelopeSimple size={24} alt="Email" /></a>
+          <a href="https://www.instagram.com/jeffersoncharllesoficial/"><InstagramLogo size={24} alt="Instagram" /></a>
+          <a href="https://github.com/Jeffersoncharlles"><GithubLogo size={24} alt="Github" /></a>
+          <a href="mailto:contato@jefferdeveloper.com"><EnvelopeSimple size={24} alt="Email" /></a>
         </div>
       </div>
 
