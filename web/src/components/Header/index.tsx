@@ -60,7 +60,7 @@ export const Header = ({ menu }: Props) => {
           alt=""
           className={styles.imagemHeaderMobile}
         />
-        <button className={showingBurger ? styles.active_bx : styles.bx} id="bx" onClick={handleShowingBurger}></button>
+        <button className={showingBurger ? styles.active_bx : styles.bx} id="bx" type="button" onClick={handleShowingBurger}></button>
 
       </nav>
       <NavMobile data={menu} showMe={showingBurger} />

@@ -4,7 +4,7 @@ import styles from './styles.module.css'
 
 interface Props extends React.SVGProps<SVGSVGElement> {
   styleClass?: string;
-  urlImage?: string;
+  urlImage: string;
 }
 
 const SvgComponent = ({ urlImage, styleClass, ...rest }:Props) => (
@@ -22,7 +22,7 @@ const SvgComponent = ({ urlImage, styleClass, ...rest }:Props) => (
         fill="#D5D6D8"
         className={styles.background_img}
       />
-      <image className={styles.images} href={urlImage}  x={80.981} y={29.248} />
+      <image className={styles.images} href={urlImage} x={80.981} y={29.248} />
     </g>
     <rect
       x={56.97}
