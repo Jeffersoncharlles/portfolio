@@ -9,7 +9,7 @@ export const Hero = ({...rest}:Props) => {
 
         <div className={styles.container_item1} data-aos="fade-up"  data-aos-duration="2000">
           <h1 className={styles.container_title} aria-label='Software Analyst'>Software Analyst</h1>
-          <h4 className={styles.container_subtitle}>Jefferson Charlles</h4>
+          <h2 className={styles.container_subtitle}>Jefferson Charlles</h2>
           <p className={styles.container_body}>
             code beautifully things and l love what I do
             I'm always learning. I love technology, energy
