@@ -1,5 +1,5 @@
-import SlacksIcons from '../../assets/SVGS/SlacksIcons';
-import UnionDegrade from '../../assets/SVGS/UnionDegrade';
+import SlacksIcons from '../../../assets/SVGS/SlacksIcons';
+import UnionDegrade from '../../../assets/SVGS/UnionDegrade';
 import styles from './styles.module.css'
 interface Props extends React.HTMLAttributes<HTMLDivElement> { }
 export const Hero = ({...rest}:Props) => {

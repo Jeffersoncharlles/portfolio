@@ -1,15 +1,14 @@
-
 import { GetStaticProps } from 'next'
 import Head from 'next/head'
-import { Header } from '../components/Header'
-import styles from '../styles/pages/hero.module.css'
-import { AcademicEducation } from '../components/AcademicEducation'
-import { Footer } from '../components/Footer'
-import {menuHelpers } from '../utils/helpers'
+import { Header } from './Header'
+import styles from './hero.module.css'
+import { AcademicEducation } from './AcademicEducation'
+import { Footer } from './Footer'
+import { menuHelpers } from '../../utils/helpers'
 import Image from 'next/image'
-import BackgroundHero from '../assets/bg-hero.png'
-import { Hero } from '../components/Hero'
-import { CarrosselProject } from '../components/CarrosselProject'
+import BackgroundHero from '../../assets/bg-hero.png'
+import { Hero } from './Hero'
+import { CarrosselProject } from './CarrosselProject'
 
 export default function Home() {
 
@@ -27,7 +26,7 @@ export default function Home() {
         <meta property="og:description" content="Portfolio Jefferson Charlles." />
         <meta property="og:image" content="svg/metatag-jeffer.png" />
 
-          {/*<!--=========== Twitter ===============-->*/}
+        {/*<!--=========== Twitter ===============-->*/}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://jefferdeveloper.com/" />
         <meta property="twitter:title" content="Portfolio Jefferson Charlles." />
@@ -39,7 +38,7 @@ export default function Home() {
       <Image src={BackgroundHero} alt="" className='-z-20 absolute top-0 left-0 right-0 bottom-0 w-screen ' />
       <main className={styles.container} >
         <Hero id='home' />
-        <AcademicEducation id="formation"  />
+        <AcademicEducation id="formation" />
         <CarrosselProject id="myproject" />
       </main>
       <Footer />

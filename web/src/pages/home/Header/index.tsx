@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from './styles.module.css'
-import Logo from '../../assets/logo.svg'
+import Logo from '../../../assets/logo.svg'
 import { EnvelopeSimple, InstagramLogo, GithubLogo } from 'phosphor-react'
 import Link from "next/link";
 import { NavMobile } from "./NavMobile";
