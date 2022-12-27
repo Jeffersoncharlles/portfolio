@@ -1,7 +1,7 @@
 import styles from './styles.module.css'
-import PhotoSvg from '../../assets/SVGS/PhotoSvg'
+import PhotoSvg from '../../../assets/SVGS/PhotoSvg'
 import { CardFormation } from './CardFormation';
-import { academic } from '../../utils/helpers';
+import { academic } from '../../../utils/helpers';
 
 interface Props extends React.HTMLAttributes<HTMLDivElement> { }
 

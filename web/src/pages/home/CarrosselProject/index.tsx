@@ -1,6 +1,6 @@
 import styles from './styles.module.css'
 import Image from 'next/image';
-import { projects } from '../../utils/helpers';
+import { projects } from '../../../utils/helpers';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper';
