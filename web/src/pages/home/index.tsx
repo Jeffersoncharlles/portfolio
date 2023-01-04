@@ -1,4 +1,3 @@
-import { GetStaticProps } from 'next'
 import Head from 'next/head'
 import { Header } from './Header'
 import styles from './hero.module.css'
@@ -10,7 +9,16 @@ import BackgroundHero from '../../assets/bg-hero.png'
 import { Hero } from './Hero'
 import { CarrosselProject } from './CarrosselProject'
 
-export default function Home() {
+interface HomeProps{
+  carousel: {
+    slug: string;
+    title: string;
+    body: string;
+    imageProjects: string;
+ }[]
+}
+
+export default function Home({carousel }:HomeProps) {
 
   return (
     <>
@@ -39,22 +47,9 @@ export default function Home() {
       <main className={styles.container} >
         <Hero id='home' />
         <AcademicEducation id="formation" />
-        <CarrosselProject id="myproject" />
+        <CarrosselProject id="myproject" carousel={carousel} />
       </main>
       <Footer />
     </>
   )
-}
-
-
-export const getStaticProps: GetStaticProps = () => {
-
-
-  return {
-    props: {
-
-    },
-    revalidate: 60 * 60 * 24 //24horas
-  }
-
 }

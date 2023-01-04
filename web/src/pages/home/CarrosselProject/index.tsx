@@ -9,10 +9,19 @@ import { Autoplay, Pagination } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import "swiper/css/pagination";
+import { GetStaticProps, GetStaticPropsContext } from 'next';
 
-interface Props extends React.HTMLAttributes<HTMLDivElement> { }
 
-export const CarrosselProject = ({ ...rest}:Props) => {
+interface Props extends React.HTMLAttributes<HTMLDivElement> {
+    carousel: {
+        slug: string;
+        title: string;
+        body: string;
+        imageProjects: string;
+    }[]
+}
+
+export const CarrosselProject = ({ carousel,...rest}:Props) => {
 
     return(
         <section className={styles.container} {...rest}>
@@ -54,10 +63,10 @@ export const CarrosselProject = ({ ...rest}:Props) => {
                     }}
                     className={styles.cards}
                 >
-                    {projects.map((item, index) => (
-                        <SwiperSlide key={item.title} className={styles.card}  >
+                    {carousel.map((item, index) => (
+                        <SwiperSlide key={item.slug} className={styles.card}  >
                             <div>
-                                 <Image src={item.imageUrl} alt="" width={573} height={380.65} />
+                                 <Image src={item.imageProjects} alt="" width={573} height={380.65} />
                                 <div className={styles.cards_body}>
                                     <h3 className={styles.titleCard}>{item.title}</h3>
                                     <p className={styles.body}>{item.body.length >= 78 ? item.body.slice(0, 78).concat('...') : item.body}</p>

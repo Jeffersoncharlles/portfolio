@@ -7,10 +7,9 @@ const blog = () => {
     return (
         <>
         <Head>
-            <title>Jefferson Charlles</title>
-            <meta name="description" content="Portfolio Jefferson Charlles" />
+            <title>Blog | Jefferson Charlles</title>
+            <meta name="description" content="Blog Jefferson Charlles" />
         </Head>
-            <Header />
             <main className={styles.container}></main>
         </>
     );
