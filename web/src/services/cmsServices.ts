@@ -18,11 +18,12 @@ export const cmsService = {
     )
 
     const result = response.results.map((item, index) => {
+      const regex = /([^?.]+$)/gm //remover tudo depois do ?
       return {
         slug: item.uid,
         title: RichText.asText(item.data.title),
         body: item.data.content.find((body: any) => body.type === 'paragraph')?.text ?? '',
-        imageProjects: item.data.imageprojects.url.replaceAll(/([^?.]+$)/gm, '') ?? '',
+        imageProjects: item.data.imageprojects.url,
       }
     })
     // console.log(JSON.stringify(response, null, 2))

@@ -66,7 +66,7 @@ export const CarrosselProject = ({ carousel,...rest}:Props) => {
                     {carousel.map((item, index) => (
                         <SwiperSlide key={item.slug} className={styles.card}  >
                             <div>
-                                 <Image src={item.imageProjects} alt="" width={573} height={380.65} />
+                                 <Image src={item.imageProjects} alt="" width={570} height={380.65} />
                                 <div className={styles.cards_body}>
                                     <h3 className={styles.titleCard}>{item.title}</h3>
                                     <p className={styles.body}>{item.body.length >= 78 ? item.body.slice(0, 78).concat('...') : item.body}</p>

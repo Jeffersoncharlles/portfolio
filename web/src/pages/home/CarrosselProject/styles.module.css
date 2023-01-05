@@ -6,12 +6,12 @@
 }
 
 .cards{
-  @apply w-[90%] md:flex md:items-center ;
+  @apply w-[100%] md:flex md:items-center ;
 
 }
 
 .card{
-  @apply w-full  flex flex-col px-6 py-4 gap-4  lg:items-center lg:justify-center ;
+  @apply w-full  flex flex-col px-11 py-4 gap-4  lg:items-center lg:justify-center ;
 }
 .cards_body{
   @apply flex flex-col items-start gap-4 ;
