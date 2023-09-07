@@ -43,7 +43,12 @@ export default function Home({carousel }:HomeProps) {
 
       </Head>
       <Header menu={menuHelpers} />
-      <Image src={BackgroundHero} alt="" className='-z-20 absolute top-0 left-0 right-0 bottom-0 w-screen ' />
+      <Image 
+        src={BackgroundHero} 
+        alt="" 
+        className='-z-20 absolute top-0 left-0 right-0 bottom-0 w-screen' 
+        priority
+      />
       <main className={styles.container} >
         <Hero id='home' />
         <AcademicEducation id="formation" />
