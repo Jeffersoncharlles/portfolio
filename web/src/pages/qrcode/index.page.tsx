@@ -23,10 +23,10 @@ export default function QrCode (){
                     </Link>
                 </div>
                 <div className='flex flex-col border p-10 gap-4'>
-                    <a className='hover:text-blue-300/90 text-3xl cursor-pointer px-8 py-2 border border-zinc-100/10 transition-colors' href="">GitHub</a>
-                    <a className='hover:text-blue-300/90 text-3xl cursor-pointer px-8 py-2 border border-zinc-100/10 transition-colors' href="">Linkedin</a>
-                    <a className='hover:text-blue-300/90 text-3xl cursor-pointer px-8 py-2 border border-zinc-100/10 transition-colors' href="">Instagram</a>
-                    <a className='hover:text-blue-300/90 text-3xl cursor-pointer px-8 py-2 border border-zinc-100/10 transition-colors' href="">Facebook</a>
+                    <a className='hover:text-blue-300/90 text-3xl cursor-pointer px-8 py-2 border border-zinc-100/10 transition-colors' href="https://github.com/Jeffersoncharlles">GitHub</a>
+                    <a className='hover:text-blue-300/90 text-3xl cursor-pointer px-8 py-2 border border-zinc-100/10 transition-colors' href="https://www.linkedin.com/in/jeffersoncharlles">Linkedin</a>
+                    <a className='hover:text-blue-300/90 text-3xl cursor-pointer px-8 py-2 border border-zinc-100/10 transition-colors' href="https://www.instagram.com/jeffersoncharllesoficial/">Instagram</a>
+                    <a className='hover:text-blue-300/90 text-3xl cursor-pointer px-8 py-2 border border-zinc-100/10 transition-colors' href="https://www.jefferdeveloper.com/">Meu Portfolio!</a>
                 </div>
               </section>
             </main>
